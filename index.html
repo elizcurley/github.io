@@ -2,35 +2,208 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Mangrove Method — Expert Research & Forensic Consulting</title>
+  <title>Mangrove Method — Research, Consulting, and Creative Studio</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Expert research & forensic consulting for public defense: evidence review, program evaluation, impact analysis, and clear, defensible testimony.">
+  <meta name="description" content="Mangrove Method is a research, consulting, and creative studio. We help teams and individuals move from complexity to clarity—through program design, evaluation, expert analysis, and practical systems that stick.">
   <link rel="canonical" href="https://mangrovemethod.com/">
-  <meta property="og:title" content="Mangrove Method">
-  <meta property="og:description" content="Expert research & forensic consulting for public defense.">
-  <meta property="og:url" content="https://mangrovemethod.com/">
-  <meta property="og:type" content="website">
   <style>
-    :root{--bg:#0f172a;--fg:#e5e7eb;--card:#111827;--bord:#1f2937}
-    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
-    .wrap{max-width:860px;margin:0 auto;padding:72px 20px}
-    h1{font-size:clamp(28px,5vw,48px);margin:0 0 10px}
-    p{max-width:70ch}
-    .card{background:var(--card);border:1px solid var(--bord);border-radius:16px;padding:22px;margin-top:24px}
-    a.btn{display:inline-block;margin-top:18px;padding:12px 18px;border-radius:10px;border:1px solid #334155;text-decoration:none;color:var(--fg)}
-    .small{opacity:.8;font-size:.925rem}
+    :root{
+      --bg:#0f172a; --fg:#e5e7eb; --muted:#94a3b8; --card:#0b1226; --line:#1f2a44;
+      --accent:#7dd3fc; --accent2:#a78bfa;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    a{color:var(--fg);text-decoration:none}
+    .wrap{max-width:1080px;margin:0 auto;padding:28px 20px 72px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:10px 0}
+    nav a{opacity:.9;margin-left:18px}
+    .btn{display:inline-block;padding:12px 16px;border:1px solid var(--line);border-radius:12px}
+    .hero{position:relative;border:1px solid var(--line);border-radius:24px;padding:44px 22px;overflow:hidden;background:radial-gradient(800px 400px at 60% -10%, rgba(125,211,252,.18), transparent), radial-gradient(600px 300px at -10% 20%, rgba(167,139,250,.14), transparent)}
+    h1{font-size:clamp(28px,5vw,44px);line-height:1.2;margin:0 0 8px}
+    .sub{color:var(--muted);max-width:70ch;margin:6px 0 14px}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+    .kicker{letter-spacing:.1em;text-transform:uppercase;font-size:.78rem;color:var(--muted)}
+    h2{font-size:clamp(22px,3.5vw,32px);margin:0 0 10px}
+    h3{margin:0 0 8px;font-size:1.04rem}
+    ul{margin:8px 0 0;padding-left:18px}
+    li{margin:4px 0}
+    .pill{display:inline-block;font-size:.82rem;padding:6px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);margin-right:8px}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+    .footer{margin-top:48px;color:var(--muted);font-size:.9rem}
+    .badge{font-size:.82rem;color:var(--muted)}
+    .cols-3{grid-column:span 4}
+    .cols-4{grid-column:span 4}
+    .cols-6{grid-column:span 6}
+    .cols-12{grid-column:span 12}
+    @media (max-width:920px){
+      .cols-6,.cols-4,.cols-3{grid-column:span 12}
+      header{flex-wrap:wrap}
+    }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>Mangrove Method</h1>
-    <p>Expert research & forensic consulting for public defense: evidence review, program evaluation, impact analysis, and clear, defensible testimony.</p>
-    <div class="card">
-      <p><strong>Now accepting engagements</strong> with Florida public defenders’ offices and appointed counsel.</p>
-      <p>Contact: <a href="mailto:hello@mangrovemethod.com">hello@mangrovemethod.com</a></p>
-      <a class="btn" href="https://calendly.com/your-calendly-link/intro">Book a 20-min intro call</a>
-      <p class="small">Mangrove Method LLC • Tallahassee, FL • EIN available on request</p>
-    </div>
+    <header>
+      <div style="display:flex;align-items:center;gap:12px">
+        <!-- simple circle mark hinting “pool/puddle” -->
+        <div style="width:28px;height:28px;border-radius:999px;background:conic-gradient(from 180deg, rgba(125,211,252,.6), rgba(167,139,250,.6), rgba(15,23,42,0) 70%);border:1px solid var(--line)"></div>
+        <strong>Mangrove Method</strong>
+      </div>
+      <nav>
+        <a href="#services">Services</a>
+        <a href="#for">Who we help</a>
+        <a href="#tiers">Ways to work together</a>
+        <a href="#about">About</a>
+        <a class="btn" href="mailto:hello@mangrovemethod.com">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <span class="kicker">Rooted in care • Built for momentum</span>
+      <h1>Research, consulting, and creative support—so your work moves with clarity.</h1>
+      <p class="sub">We translate messy realities into actionable plans: program design and evaluation, public-interest and defense-aligned analysis, operational systems for humans (not robots), and creative artifacts that carry your work forward.</p>
+      <div class="cta">
+        <a class="btn" href="https://calendly.com/your-calendly-link/intro">Book a 20-min intro</a>
+        <a class="btn" href="#services">Explore services</a>
+      </div>
+      <div style="margin-top:10px">
+        <span class="pill">Research & Evaluation</span>
+        <span class="pill">Program & Ops Consulting</span>
+        <span class="pill">Forensic / Expert Work</span>
+        <span class="pill">Systems Coaching</span>
+        <span class="pill">Creative Studio</span>
+      </div>
+    </section>
+
+    <section id="services" style="margin-top:36px">
+      <span class="kicker">Services</span>
+      <h2>What we do</h2>
+      <div class="grid" style="margin-top:8px">
+        <div class="card cols-4">
+          <h3>Research & Evaluation</h3>
+          <ul>
+            <li>Study design, mixed-methods, and measurement strategy</li>
+            <li>Data cleaning, analysis, and decision-grade reporting</li>
+            <li>Implementation/process evaluations & learning agendas</li>
+          </ul>
+        </div>
+        <div class="card cols-4">
+          <h3>Program & Policy Consulting</h3>
+          <ul>
+            <li>Program logic models, workflows, and training guides</li>
+            <li>Grant strategy, scoping, and outcome frameworks</li>
+            <li>Policy scans & plain-language briefs for stakeholders</li>
+          </ul>
+        </div>
+        <div class="card cols-4">
+          <h3>Forensic & Expert Services</h3>
+          <ul>
+            <li>Record & evidence review; social history synthesis</li>
+            <li>Impact/mitigation analysis & clear testimony prep</li>
+            <li>Consulting for public defense & appointed counsel</li>
+          </ul>
+        </div>
+        <div class="card cols-6">
+          <h3>Systems & Lifestyle Coaching</h3>
+          <ul>
+            <li>Personal operations & habit design (privacy-first)</li>
+            <li>Templates, checklists, and sustainable routines</li>
+            <li>Accountability that respects bandwidth & boundaries</li>
+          </ul>
+        </div>
+        <div class="card cols-6">
+          <h3>Creative Studio</h3>
+          <ul>
+            <li>Editorial guidance & artifact design (guides, chapbooks)</li>
+            <li>Workshops & facilitation for teams or classrooms</li>
+            <li>Lightweight brand & messaging cleanup for clarity</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="for" style="margin-top:36px">
+      <span class="kicker">Who we help</span>
+      <h2>Choose your path</h2>
+      <div class="grid" style="margin-top:8px">
+        <div class="card cols-4">
+          <h3>Public Defense & Legal Teams</h3>
+          <ul>
+            <li>Case-specific consulting and expert analysis</li>
+            <li>Mitigation memos & social science briefs</li>
+            <li>Training: evidence-informed practice & ethics</li>
+          </ul>
+        </div>
+        <div class="card cols-4">
+          <h3>Nonprofits, Agencies, Research Labs</h3>
+          <ul>
+            <li>Evaluation planning & data infrastructure</li>
+            <li>Implementation guides & facilitator manuals</li>
+            <li>Outcome dashboards & executive summaries</li>
+          </ul>
+        </div>
+        <div class="card cols-4">
+          <h3>Individuals & Creators</h3>
+          <ul>
+            <li>Systems coaching & lifestyle management plans</li>
+            <li>Creative development and project mapping</li>
+            <li>Publication/portfolio artifacts that travel well</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="tiers" style="margin-top:36px">
+      <span class="kicker">Ways to work together</span>
+      <h2>Flexible engagement tiers</h2>
+      <div class="grid" style="margin-top:8px">
+        <div class="card cols-4">
+          <h3>Curious Dabbler</h3>
+          <ul>
+            <li>One-off consult (60–90 min)</li>
+            <li>Written recap with next steps</li>
+            <li>Resource pack or template bundle</li>
+          </ul>
+        </div>
+        <div class="card cols-4">
+          <h3>Overwhelmed & In Triage</h3>
+          <ul>
+            <li>Short sprint to stabilize a project</li>
+            <li>Light touch project management + QA</li>
+            <li>Deliverable: plan, checklist, and quick wins</li>
+          </ul>
+        </div>
+        <div class="card cols-4">
+          <h3>Committed Growth-Seeker</h3>
+          <ul>
+            <li>Ongoing retainer or scoped package</li>
+            <li>Monthly goals, metrics, and reviews</li>
+            <li>As-needed support within clear boundaries</li>
+          </ul>
+        </div>
+      </div>
+      <div class="cta" style="margin-top:12px">
+        <a class="btn" href="mailto:hello@mangrovemethod.com">Request scope & quote</a>
+        <a class="btn" href="https://calendly.com/your-calendly-link/intro">Book an intro call</a>
+      </div>
+      <p class="badge" style="margin-top:8px">Sliding scale and discounted rates available for qualifying clients.</p>
+    </section>
+
+    <section id="about" style="margin-top:36px">
+      <span class="kicker">About</span>
+      <h2>A studio that blends social work, research, and design</h2>
+      <div class="card">
+        <p>Founded by a social-work-trained researcher and award-winning writer, Mangrove Method helps people do hard things with clarity and care. We combine case-management sensibilities with project-management rigor—so your systems work for real humans.</p>
+        <p class="badge">Privacy-forward • Evidence-informed • Plain-language deliverables</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="y"></span> Mangrove Method LLC • Tallahassee, FL • Remote-friendly</p>
+      <p>Consulting and coaching services; not a clinical treatment provider. If you are seeking therapy, please contact a licensed clinician in your jurisdiction.</p>
+    </footer>
   </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </body>
 </html>
