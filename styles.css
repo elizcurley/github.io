@@ -189,55 +189,45 @@ li {
 main a.underline {
   text-decoration: underline
 }
-/* === Mangrove Method visual pack — light theme toggle === */
+/* === Mangrove Method visuals (hard override) === */
 :root{
-  /* brand tokens */
   --mm-charcoal:#3A3735;
   --mm-sage:#82A07A;
   --mm-sand:#EEE7E3;
   --mm-blue:#BCE3EE;
 }
 
-/* Turn on the brand/light theme when <body class="theme-mm"> */
 body.theme-mm{
-  /* override your dark palette with brand colors */
   --bg:var(--mm-sand);
   --fg:var(--mm-charcoal);
-  --muted:#6b7280;         /* soft gray for secondary text */
-  --card:#f7f4f1;          /* light card */
-  --line:#e3ddd7;          /* light borders */
+  --muted:#6b7280;
+  --card:#f7f4f1;
+  --line:#e3ddd7;
   --accent:var(--mm-sage);
   --accent2:var(--mm-blue);
 
-  background:var(--bg);
-  /* subtle site texture */
-  background-image:url('/assets/img/mm-bg-tile.webp');
-  background-repeat:repeat;
-  background-attachment:fixed;
+  /* site texture */
+  background: var(--bg) url('/assets/img/mm-bg-tile.webp') repeat fixed;
 }
 
-/* brand mark in header */
+/* header logo – nuke old gradient, show the seal */
 body.theme-mm .logo{
-  width:28px;height:28px;border-radius:999px;
-  background-image:url('/assets/img/mm-seal-clean-1024.png'); /* fallback below if not uploaded */
+  width:28px;height:28px;border-radius:999px;border:1px solid var(--line);
+  background:none; /* kill previous conic gradient */
+  background-image:url('/assets/img/mm-seal-clean-1024.png');
   background-size:contain;background-repeat:no-repeat;background-position:center;
-  border:1px solid var(--line);
-  background-color:transparent;
 }
-/* fallback if you only uploaded site-icon-512.png */
+/* fallback if you didn’t upload the clean seal */
 /* body.theme-mm .logo{ background-image:url('/assets/img/site-icon-512.png'); } */
 
-/* hero with cover image */
+/* hero – force the cover image to take over */
 body.theme-mm .hero{
-  background-image:url('/assets/img/mm-bg-cover.webp');
-  background-size:cover;background-position:center;background-repeat:no-repeat;
+  background: url('/assets/img/mm-bg-cover.webp') center/cover no-repeat;
   border-color:var(--line);
   color:var(--fg);
 }
 
-/* links, active nav, pills tuned for light theme */
+/* light-theme tweaks */
 body.theme-mm nav a.active{border-bottom:2px solid var(--accent)}
 body.theme-mm .pill{color:var(--fg);border-color:var(--line);background:transparent}
-
-/* cards stay light and crisp */
 body.theme-mm .card{background:var(--card);border:1px solid var(--line)}
