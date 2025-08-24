@@ -231,3 +231,36 @@ body.theme-mm .hero{
 body.theme-mm nav a.active{border-bottom:2px solid var(--accent)}
 body.theme-mm .pill{color:var(--fg);border-color:var(--line);background:transparent}
 body.theme-mm .card{background:var(--card);border:1px solid var(--line)}
+/* better contrast on light theme */
+body.theme-mm{
+  --muted:#4b5563;        /* darker gray for readability */
+}
+
+/* optional soft overlay in hero to keep text readable on the texture */
+body.theme-mm .hero::before{
+  content:""; position:absolute; inset:0;
+  background:linear-gradient(180deg, rgba(238,231,227,.72), rgba(238,231,227,.38) 40%, rgba(238,231,227,.20) 100%);
+  pointer-events:none;
+}
+body.theme-mm .hero > *{ position:relative; }
+
+/* clickable brand + bigger logo */
+.brand{display:flex; align-items:center; gap:12px; color:inherit; text-decoration:none;}
+body.theme-mm .logo{
+  width:44px; height:44px;           /* bigger */
+  background-image:url('/assets/img/mm-seal-clean-1024.png');
+  background-size:contain; background-repeat:no-repeat; background-position:center;
+  border-radius:999px; border:1px solid var(--line);
+  transition:transform .15s ease;
+}
+@media (min-width:900px){
+  body.theme-mm .logo{ width:52px; height:52px; }
+}
+.brand:hover .logo{ transform:scale(1.04); }
+
+/* small type tweaks on light theme */
+body.theme-mm .sub{ color:#374151; }     /* darker subhead */
+body.theme-mm .footer{ color:#525252; }  /* footer legibility */
+
+/* accessible focus */
+a:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }

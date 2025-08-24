@@ -3,8 +3,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="styles.css">
 </head><body><div class="container">
 <header>
-  <div class="brand"><div class="logo"></div><strong>Mangrove Method</strong></div>
-  <nav>
+  <a class="brand" href="/" aria-label="Mangrove Method home">
+  <span class="logo" aria-hidden="true"></span>
+  <strong>Mangrove Method</strong>
+</a>
+<nav>
     <a href="index.html">Home</a><a href="services.html">Services</a>
     <a href="audiences.html">Who we help</a><a href="tiers.html">Engagement tiers</a>
     <a class="active" href="about.html">About</a><a class="btn" href="mailto:hello@mangrovemethod.com">Contact</a>
@@ -25,4 +28,8 @@
 <footer class="footer">
   <p>© <span id="y"></span> Mangrove Method LLC • Tallahassee, FL • Remote-friendly</p>
 </footer>
-</div><script>document.getElementById('y').textContent=new Date().getFullYear()</script></body></html>
+</div><script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+  document.body.classList.add('theme-mm'); // turn on the Mangrove theme everywhere
+</script>
+</body></html>
