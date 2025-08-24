@@ -6,47 +6,18 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="Mangrove Method is a research, consulting, and creative studio. We help teams and individuals move from complexity to clarity—through program design, evaluation, expert analysis, and practical systems that stick.">
   <link rel="canonical" href="https://mangrovemethod.com/" />
-  <style>
-    :root{--bg:#0f172a;--fg:#e5e7eb;--muted:#94a3b8;--card:#0b1226;--line:#1f2a44;--accent:#7dd3fc;--accent2:#a78bfa}
-    *{box-sizing:border-box}html,body{margin:0;padding:0}
-    body{background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
-    a{color:var(--fg);text-decoration:none}
-    .container{max-width:1080px;margin:0 auto;padding:24px 20px 72px}
-    header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0}
-    .brand{display:flex;align-items:center;gap:12px}
-    .logo{width:28px;height:28px;border-radius:999px;background:conic-gradient(from 180deg, rgba(125,211,252,.6), rgba(167,139,250,.6), rgba(15,23,42,0) 70%);border:1px solid var(--line)}
-    nav a{opacity:.9;margin-left:18px}
-    .btn{display:inline-block;padding:12px 16px;border:1px solid var(--line);border-radius:12px}
-    .hero{position:relative;border:1px solid var(--line);border-radius:24px;padding:44px 22px;overflow:hidden;background:
-      radial-gradient(800px 400px at 60% -10%, rgba(125,211,252,.18), transparent),
-      radial-gradient(600px 300px at -10% 20%, rgba(167,139,250,.14), transparent)}
-    h1{font-size:clamp(28px,5vw,44px);line-height:1.2;margin:0 0 8px}
-    h2{font-size:clamp(22px,3.5vw,32px);margin:0 0 10px}
-    h3{margin:12px 0 8px;font-size:1.1rem}
-    .sub{color:var(--muted);max-width:70ch;margin:6px 0 14px}
-    .kicker{letter-spacing:.1em;text-transform:uppercase;font-size:.78rem;color:var(--muted)}
-    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
-    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
-    .pill{display:inline-block;font-size:.82rem;padding:6px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);margin-right:8px}
-    .footer{margin-top:48px;color:var(--muted);font-size:.9rem}
-    .badge{font-size:.88rem;color:var(--muted)}
-    .cols-4{grid-column:span 4}.cols-6{grid-column:span 6}.cols-12{grid-column:span 12}
-    @media (max-width:920px){.cols-6,.cols-4{grid-column:span 12}header{flex-wrap:wrap}nav a{margin-left:12px}}
-    ul{margin:8px 0 0;padding-left:18px}li{margin:4px 0}
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="container">
     <header>
-      <div class="brand">
-        <div class="logo" aria-hidden="true"></div>
-        <strong>Mangrove Method</strong>
-      </div>
+      <div class="brand"><div class="logo" aria-hidden="true"></div><strong>Mangrove Method</strong></div>
       <nav>
-        <a href="#services">Services</a>
-        <a href="#for">Who we help</a>
-        <a href="#tiers">Engagement tiers</a>
-        <a href="#about">About</a>
+        <a class="active" href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="audiences.html">Who we help</a>
+        <a href="tiers.html">Engagement tiers</a>
+        <a href="about.html">About</a>
         <a class="btn" href="mailto:hello@mangrovemethod.com">Contact</a>
       </nav>
     </header>
@@ -57,7 +28,7 @@
       <p class="sub">We translate messy realities into actionable plans: program design and evaluation, public-interest and defense-aligned analysis, operational systems for humans (not robots), and creative artifacts that carry your work forward.</p>
       <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:10px">
         <a class="btn" href="https://calendly.com/your-calendly-link/intro">Book a 20-min intro</a>
-        <a class="btn" href="#services">Explore services</a>
+        <a class="btn" href="services.html">Explore services</a>
       </div>
       <div style="margin-top:12px">
         <span class="pill">Research & Evaluation</span>
@@ -68,8 +39,8 @@
       </div>
     </section>
 
-    <section id="services" style="margin-top:36px">
-      <span class="kicker">Services</span>
+    <section style="margin-top:36px">
+      <span class="kicker">Highlights</span>
       <h2>What we do</h2>
       <div class="grid" style="margin-top:8px">
         <div class="card cols-4">
@@ -96,98 +67,6 @@
             <li>Consulting for public defense & appointed counsel</li>
           </ul>
         </div>
-        <div class="card cols-6">
-          <h3>Systems & Lifestyle Coaching</h3>
-          <ul>
-            <li>Personal operations & habit design (privacy-first)</li>
-            <li>Templates, checklists, and sustainable routines</li>
-            <li>Accountability that respects bandwidth & boundaries</li>
-          </ul>
-        </div>
-        <div class="card cols-6">
-          <h3>Creative Studio</h3>
-          <ul>
-            <li>Editorial guidance & artifact design (guides, chapbooks)</li>
-            <li>Workshops & facilitation for teams or classrooms</li>
-            <li>Lightweight brand & messaging cleanup for clarity</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="for" style="margin-top:36px">
-      <span class="kicker">Who we help</span>
-      <h2>Choose your path</h2>
-      <div class="grid" style="margin-top:8px">
-        <div class="card cols-4">
-          <h3>Public Defense & Legal Teams</h3>
-          <ul>
-            <li>Case-specific consulting and expert analysis</li>
-            <li>Mitigation memos & social science briefs</li>
-            <li>Training: evidence-informed practice & ethics</li>
-          </ul>
-        </div>
-        <div class="card cols-4">
-          <h3>Nonprofits, Agencies, Research Labs</h3>
-          <ul>
-            <li>Evaluation planning & data infrastructure</li>
-            <li>Implementation guides & facilitator manuals</li>
-            <li>Outcome dashboards & executive summaries</li>
-          </ul>
-        </div>
-        <div class="card cols-4">
-          <h3>Individuals & Creators</h3>
-          <ul>
-            <li>Systems coaching & lifestyle management plans</li>
-            <li>Creative development and project mapping</li>
-            <li>Publication/portfolio artifacts that travel well</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="tiers" style="margin-top:36px">
-      <span class="kicker">Ways to work together</span>
-      <h2>Flexible engagement tiers</h2>
-      <div class="grid" style="margin-top:8px">
-        <div class="card cols-4">
-          <h3>Curious Dabbler</h3>
-          <ul>
-            <li>One-off consult (60–90 min)</li>
-            <li>Written recap with next steps</li>
-            <li>Resource pack or template bundle</li>
-          </ul>
-        </div>
-        <div class="card cols-4">
-          <h3>Overwhelmed & In Triage</h3>
-          <ul>
-            <li>Short sprint to stabilize a project</li>
-            <li>Light-touch project management + QA</li>
-            <li>Deliverable: plan, checklist, and quick wins</li>
-          </ul>
-        </div>
-        <div class="card cols-4">
-          <h3>Committed Growth-Seeker</h3>
-          <ul>
-            <li>Ongoing retainer or scoped package</li>
-            <li>Monthly goals, metrics, and reviews</li>
-            <li>As-needed support within clear boundaries</li>
-          </ul>
-        </div>
-      </div>
-      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px">
-        <a class="btn" href="mailto:hello@mangrovemethod.com">Request scope & quote</a>
-        <a class="btn" href="https://calendly.com/your-calendly-link/intro">Book an intro call</a>
-      </div>
-      <p class="badge" style="margin-top:8px">Sliding scale and discounted rates available for qualifying clients.</p>
-    </section>
-
-    <section id="about" style="margin-top:36px">
-      <span class="kicker">About</span>
-      <h2>A studio that blends social work, research, and design</h2>
-      <div class="card">
-        <p>Founded by a social-work-trained researcher and award-winning writer, Mangrove Method helps people do hard things with clarity and care. We combine case-management sensibilities with project-management rigor—so your systems work for real humans.</p>
-        <p class="badge">Privacy-forward • Evidence-informed • Plain-language deliverables</p>
       </div>
     </section>
 
