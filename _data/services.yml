@@ -1,0 +1,55 @@
+home:
+  - title: Research & Evaluation
+    cols: cols-4
+    list:
+      - Study design, mixed-methods, and measurement strategy
+      - Data cleaning, analysis, and decision-grade reporting
+      - Implementation/process evaluations & learning agendas
+  - title: Program & Policy Consulting
+    cols: cols-4
+    list:
+      - Logic models, workflows, and training guides
+      - Grant strategy, scoping, and outcome frameworks
+      - Policy scans & plain-language briefs for stakeholders
+  - title: Forensic & Expert Services
+    cols: cols-4
+    list:
+      - Record & evidence review; social history synthesis
+      - Impact/mitigation analysis & clear testimony prep
+      - Consulting for public defense & appointed counsel
+
+all:
+  - title: Research & Evaluation
+    cols: cols-6
+    list:
+      - Mixed-methods design and measurement strategy
+      - Data pipelines, cleaning, reproducible analysis
+      - Implementation/process evaluations and rapid learning cycles
+      - Executive summaries, dashboards, decision memos
+  - title: Program & Policy Consulting
+    cols: cols-6
+    list:
+      - Logic models, SOPs, facilitator manuals
+      - Grant/RFP framing; outcome frameworks
+      - Policy scans and plain-language briefs
+      - Training & workshops: evidence-informed practice
+  - title: Forensic & Expert Services
+    cols: cols-6
+    list:
+      - Case record review and evidence synthesis
+      - Mitigation/impact memos and expert testimony prep
+      - Social science literature briefs for legal teams
+      - Ethics & interviewing best-practices training
+  - title: Systems & Lifestyle Coaching
+    cols: cols-6
+    list:
+      - Personal ops & habit design (privacy-first)
+      - Templates, checklists, sustainable routines
+      - Accountability that respects bandwidth & boundaries
+      - Lightweight data hygiene for real life
+  - title: Creative Studio
+    cols: cols-12
+    list:
+      - Editorial guidance & artifact design (guides, chapbooks)
+      - Workshops & facilitation for teams/classrooms
+      - Brand & messaging cleanup for clarity

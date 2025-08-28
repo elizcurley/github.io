@@ -1,0 +1,18 @@
+title: Mangrove Method
+url: https://mangrovemethod.com
+baseurl: ""
+timezone: America/New_York
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+# toggles
+plausible_domain:
+formspree_id: xzzaddye
+form_success_url: /thanks/
+
+markdown: kramdown
+permalink: pretty
+exclude: [README.md, node_modules]

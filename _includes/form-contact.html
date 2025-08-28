@@ -1,0 +1,21 @@
+<form action="https://formspree.io/f/{{ site.formspree_id }}" method="POST" class="form" accept-charset="UTF-8">
+  <input type="hidden" name="_subject" value="New inquiry from mangrovemethod.com">
+  {% if site.form_success_url %}<input type="hidden" name="_next" value="{{ site.form_success_url | relative_url }}">{% endif %}
+  <div class="grid grid-2">
+    <label>Name
+      <input name="name" autocomplete="name" required>
+    </label>
+    <label>Email
+      <input type="email" name="email" autocomplete="email" required>
+    </label>
+  </div>
+  <label>Organization (optional)
+    <input name="org" autocomplete="organization">
+  </label>
+  <label>What do you need help with?
+    <textarea name="message" rows="6" required></textarea>
+  </label>
+  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px">
+  <button class="btn" type="submit">Send</button>
+  <p class="badge">Or email <a class="underline" href="mailto:hello@mangrovemethod.com">hello@mangrovemethod.com</a></p>
+</form>

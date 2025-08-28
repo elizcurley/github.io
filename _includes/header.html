@@ -1,0 +1,19 @@
+<header class="site-header">
+  <a class="logo-link" href="{{ '/' | relative_url }}" aria-label="Home">
+    <img src="{{ '/assets/img/mm-seal-clean-1024.png' | relative_url }}" alt="" width="64" height="64">
+  </a>
+  <span class="brand-text">{{ site.title }}</span>
+  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" data-nav-toggle>
+    <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+  </button>
+  <nav class="main-nav" id="site-nav" aria-label="Main navigation">
+    {% for item in site.data.nav %}
+      {% assign href = item.url %}
+      {% unless href contains ':' %}{% assign href = href | relative_url %}{% endunless %}
+      <a href="{{ href }}"
+         class="{% if page.url == item.url %}active{% endif %}{% if item.class %} {{ item.class }}{% endif %}">
+        {{ item.title }}
+      </a>
+    {% endfor %}
+  </nav>
+</header>

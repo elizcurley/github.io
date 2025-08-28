@@ -1,0 +1,12 @@
+{% assign hero_class = include.class | default: 'hero hero-panel' %}
+<section class="{{ hero_class }}">
+  <div class="inner">
+    {% if include.kicker %}<span class="kicker">{{ include.kicker }}</span>{% endif %}
+    <h1>{{ include.title }}</h1>
+    {% if include.sub %}<p class="sub">{{ include.sub }}</p>{% endif %}
+    {% if include.cta or include.cta2 %}{% include cta-row.html cta=include.cta cta2=include.cta2 %}{% endif %}
+    {% if include.pills %}
+    <div class="pills">{% for p in include.pills %}<span class="pill">{{ p }}</span>{% endfor %}</div>
+    {% endif %}
+  </div>
+</section>

@@ -1,0 +1,11 @@
+<div class="grid">
+  {% for card in include.items %}
+    <div class="card {{ card.cols | default: 'cols-4' }}">
+      <h3>{{ card.title }}</h3>
+      {% if card.text %}<p>{{ card.text }}</p>{% endif %}
+      {% if card.list %}
+      <ul>{% for li in card.list %}<li>{{ li }}</li>{% endfor %}</ul>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
