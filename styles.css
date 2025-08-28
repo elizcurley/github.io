@@ -264,3 +264,35 @@ body.theme-mm .footer{ color:#525252; }  /* footer legibility */
 
 /* accessible focus */
 a:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+
+/* Home hero wrapper */
+.home-hero{
+  position:relative;
+  min-height:70vh;
+  display:grid;
+  place-items:center;
+  padding: clamp(24px, 5vw, 64px);
+  background:
+    radial-gradient(1200px 600px at 20% 15%, rgba(130,160,122,.12), transparent 60%),
+    linear-gradient(180deg, rgba(238,231,227,.85), rgba(238,231,227,.65));
+}
+
+/* Panel behind your hero copy */
+.home-hero .content{
+  max-width: 70ch;
+  background: rgba(238,231,227, .92); /* sand, high readability */
+  color: var(--mm-charcoal);
+  padding: clamp(18px, 3vw, 28px);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(58,55,53,.12);
+  backdrop-filter: blur(3px);
+}
+
+/* Headings & body in hero */
+.home-hero h1{
+  margin:0 0 .25em 0;
+  line-height:1.1;
+  letter-spacing:-0.01em;
+}
+.home-hero p{ margin:0.25em 0 0 0; }
+
