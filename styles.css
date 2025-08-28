@@ -130,3 +130,37 @@ li{margin:4px 0}
 
 /* Accessibility */
 a:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+/* Header should never wrap */
+.site-header{
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  flex-wrap: nowrap;               /* <- stop wrapping */
+}
+
+/* Brand block doesn't grow; nav gets the remaining width */
+.logo-link{ flex: 0 0 auto; }
+.brand-text{ flex: 0 0 auto; }
+
+/* Nav takes remaining space, stays on one line, scrolls if needed */
+.main-nav{
+  display:flex; gap: clamp(10px, 1.6vw, 18px);
+  flex: 1 1 auto;                  /* <- allow it to shrink */
+  justify-content:flex-end;
+  min-width: 0;                    /* <- enables overflow on flex child */
+  white-space: nowrap;             /* <- no line breaks */
+  overflow-x: auto;                /* <- allow horizontal scroll when tight */
+  scrollbar-width: thin;
+}
+.main-nav a{
+  font-size: clamp(.9rem, 1.1vw, 1rem);
+  padding-inline: 6px;             /* was 18px left margin before */
+  margin: 0;                       /* remove old margin-left */
+}
+
+/* Optional: hide scrollbar on WebKit while keeping scroll behavior */
+.main-nav::-webkit-scrollbar{ height:6px }
+.main-nav::-webkit-scrollbar-thumb{ background: var(--line); border-radius:999px }
+
+/* Slightly shrink brand on medium widths so tabs fit more often */
+@media (max-width: 1100px){
+  .brand-text{ font-size: clamp(1rem, 1.6vw + .5rem, 1.6rem); }
+}
