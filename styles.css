@@ -196,3 +196,27 @@ a:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
   padding-inline: 6px;         /* tighter to fit more labels */
   font-size: clamp(.9rem, 1.1vw, 1rem);
 }
+.subnav{ display:flex; gap:12px; margin:16px 0 8px }
+.subnav a{ color: var(--muted); padding-bottom:4px; border-bottom:2px solid transparent }
+.subnav a.active{ color: var(--fg); border-color: var(--accent) }
+
+/* Compat: if a page still has <header> without .site-header, style it like one */
+body.theme-mm > header:not(.site-header){
+  position:sticky; top:0; z-index:20;
+  display:flex; align-items:center; justify-content:space-between; gap:16px;
+  padding:10px 16px;
+  background: rgba(238,231,227,.95);
+  backdrop-filter: saturate(120%) blur(6px);
+  border-bottom:1px solid rgba(58,55,53,.08);
+}
+/* Accept both .brand-text and .brand during transition */
+body.theme-mm .brand, body.theme-mm .brand-text{
+  font-family:'Fraunces', serif; font-weight:900;
+  font-size: clamp(1.1rem, 2.2vw + .5rem, 1.8rem);
+  line-height:1.05; letter-spacing:-0.012em; color:#3A3735; white-space:nowrap;
+}
+/* Accept both old nav and new */
+body.theme-mm header nav, body.theme-mm .main-nav{
+  display:flex; gap: clamp(10px, 1.6vw, 18px);
+  flex: 1 1 auto; justify-content:flex-end; min-width:0; white-space:nowrap; overflow-x:auto;
+}
