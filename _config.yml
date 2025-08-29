@@ -16,3 +16,9 @@ form_success_url: /thanks/
 markdown: kramdown
 permalink: pretty
 exclude: [README.md, node_modules]
+
+defaults:
+  - scope:
+      path: ""   # all files
+    values:
+      bg: stretched
