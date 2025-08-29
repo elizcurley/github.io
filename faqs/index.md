@@ -11,15 +11,6 @@ redirect_from: [/tiers/]
   sub="Plain-language policies so you know exactly how we work—pricing options, scope, accessibility, timelines, and ownership."
 %}
 
-<span class="kicker">Quick navigation</span>
-<ul>
-  <li><a href="#pricing">Pricing & access</a></li>
-  <li><a href="#scope">Scope: what’s in / out</a></li>
-  <li><a href="#access">Accessibility & accommodations</a></li>
-  <li><a href="#ownership">Ownership, confidentiality & IP</a></li>
-  <li><a href="#timeline">Timelines & getting started</a></li>
-</ul>
-
 <div class="page-panel" id="pricing">
   <h2>Pricing & access</h2>
   <p class="sub">Three doors so people in different situations can participate. We’ll recommend a fit during the intro chat.</p>
