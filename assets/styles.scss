@@ -194,3 +194,24 @@ a:focus-visible{outline:2px solid var(--mm-sage);outline-offset:2px}
 
 /* --- Define primary button color if missing --- */
 :root{ --primary: var(--mm-sage); }
+
+/* -- FORCE HEADER TO THE TOP -- */
+:root{ --header-h: 64px; }                 /* default; JS below will set exact height */
+
+.site-header{
+  position: fixed !important;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;                           /* above cards/hero */
+}
+
+/* push page content below the fixed header */
+main.container{
+  padding-top: calc(var(--header-h) + var(--space-3));
+}
+
+/* keep the logo + brand tidy on small screens */
+.logo-link img, .logo-link svg{ display:block; max-width:100%; max-height:100%; object-fit:contain; }
+@media (max-width:480px){
+  .logo-link{ inline-size:36px; block-size:36px; }
+  .brand-text{ max-width:60vw; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+}
