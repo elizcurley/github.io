@@ -13,8 +13,6 @@ redirect_from: [/method/, /origin/]
 
 {% include subnav-about.html %}
 
-{% include subnav-about.html %}
-
 <div class="page-panel" id="origin" markdown="1">
 ## Origin story
 
