@@ -138,3 +138,5 @@ a:focus-visible{outline:2px solid var(--mm-sage);outline-offset:2px}
 @media (max-width:900px){
   .main-nav{ position:absolute; right:16px; top:64px; }
 }
+/* extra space between the seal and "Mangrove Method" */
+.logo-link { margin-right: 12px; }   /* bump to 16px if you want more */
