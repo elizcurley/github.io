@@ -6,13 +6,16 @@ bg: stretched
 ---
 
 {% include hero.html
-  kicker="Rooted in care • Built for momentum"
-  title="Move from complexity to clarity."
-  sub="We help you turn messy realities into decisions that stick—through practical research, clean systems, and artifacts your team will actually use."
-  cta =  { href: "https://calendly.com/your-calendly-link/intro", label: "Free 20-min meet & introduction" }
-  cta2 = { href: "/services/", label: "Explore services" }
-  pills = "Research & Evaluation|Forensic / Expert Work|Goals Coaching|Systems Design & Implementation" | split: "|"
+  kicker='Rooted in care • Built for momentum'
+  title='Move from complexity to clarity.'
+  sub='We help you turn messy realities into decisions that stick—through practical research, clean systems, and artifacts your team will actually use.'
+  cta_href='https://calendly.com/your-calendly-link/intro'
+  cta_label='Free 20-min meet & introduction'
+  cta2_href='/services/'
+  cta2_label='Explore services'
+  pills='Research & Evaluation|Forensic / Expert Work|Goals Coaching|Systems Design & Implementation'
 %}
+
 
 <span class="kicker">Highlights</span>
 ## What we do
