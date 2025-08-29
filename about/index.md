@@ -15,7 +15,17 @@ redirect_from: [/method/, /origin/]
 
 <div class="page-panel" id="origin">
   <h2>Origin story</h2>
-  <p>After years of research and implementation work in justice and health, one pattern kept repeating: people weren’t failing because they didn’t care—they were failing because the system didn’t fit how humans actually work. The answer wasn’t more forms; it was clearer decisions and kinder systems.</p>
+  <p>Mangroves thrive where land and sea argue with each other, with roots that seem to connect everywhere. These roots tangle, filter, and hold, making shelter for life in choppy water. Mangrove Method grew from that same belief: that care is a structure, momentum is a practice, and the intertidal places of life deserve better support. I built this studio after years of applied research and community work because I kept seeing the same gap: good people with good intentions drowning in complicated language, paperwork, and habits that couldn’t quite bridge the space in between. My role is to turn intention into a workable plan and then guide you to the desired outcome.
+  
+  <br>
+  
+  I am a social work researcher and creator who has spent years translating evidence into everyday practice — from education in the classroom to developing and piloting creative new programs for people who are incarcerated, to running high-level research projects with grant management. Beyond the degrees and titles, I’m also an award-winning poet, and I bring the art of innovation to everything that I do. Alongside that, I’ve been the friend people text when everything feels like “too much” — deadlines, forms, grief, logistics, and the thousand paper cuts of change. 
+  <Br>
+  Mangrove Method is where those worlds meet: practical help that still honors the human heart.
+The name chose me. As a Florida native, I fell in love with mangroves — those living architectures that make new ground out of uncertainty. That’s the promise here: rooted care and methodical movement. We map what matters, decide what’s next, and build no-hassle systems that keep you moving when the tide turns
+<br> 
+  
+  </p>
 
   <h3 style="margin-top:12px">Why “Mangrove Method”?</h3>
   <ul>
