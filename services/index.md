@@ -41,3 +41,35 @@ permalink: /services/
     <a class="btn" href="/work/">See case notes</a>
   </p>
 </div>
+
+<div class="page-panel" id="deep-dives" style="margin-top:12px">
+  <h2>Deep dives</h2>
+  <p class="sub">More detail on what the work looks like at different scales. Start small; we’ll right-size to your constraints.</p>
+
+  <h3 id="individuals" style="margin-top:10px">Individuals — Lifestyle management & creative problem-solving</h3>
+  <ul>
+    <li><strong>Clarity Session (90 min):</strong> map constraints, pick the smallest useful next step, leave with a 1-pager.</li>
+    <li><strong>Starter Sprint (2 weeks):</strong> two quick cycles → checklist(s), weekly plan, and a “done for now” decision memo.</li>
+    <li><strong>Sustainable Flow (4–6 weeks):</strong> install light routines with fail-safes; keep only what works.</li>
+    <li><strong>Stewardship (monthly):</strong> gentle accountability that respects bandwidth & privacy.</li>
+  </ul>
+
+  <h3 id="teams" style="margin-top:16px">Community orgs & small teams — Method implementation</h3>
+  <ul>
+    <li><strong>Pulse Check (2–3 weeks):</strong> right-sized measurement plan, clean data intake, executive summary.</li>
+    <li><strong>Implementation Sprint (6–8 weeks):</strong> logic model refresh, SOPs that match reality, facilitator kit.</li>
+    <li><strong>Partnership (quarterly):</strong> cadence of decision memos + refresh of artifacts as the work evolves.</li>
+  </ul>
+
+  <h3 id="institutions" style="margin-top:16px">Institutions — Strategy, evaluation & grant architecture</h3>
+  <ul>
+    <li><strong>Discovery & Design (4–6 weeks):</strong> mixed-methods plan, measurement strategy, and a lean learning agenda.</li>
+    <li><strong>Pilot & Learn (12–16 weeks):</strong> reproducible pipelines, decision-grade dashboards, implementation check-ins.</li>
+    <li><strong>Advisory On-Call (retainer):</strong> rapid reviews, briefings, and executive-ready artifacts.</li>
+  </ul>
+
+  <p class="cta-row" style="margin-top:12px">
+    <a class="button" href="/contact/">Start a conversation</a>
+    <a class="btn" href="/work/">See case notes</a>
+  </p>
+</div>
