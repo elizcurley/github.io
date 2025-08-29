@@ -1,10 +1,25 @@
 ---
 layout: default
-title: Not Found
+title: Page not found
 permalink: /404.html
 ---
 
+{% include hero.html
+  kicker="404"
+  title="We can’t find that page."
+  sub="The link may be old or mistyped. Try one of these:"
+%}
+
 <div class="page-panel">
-  <h2>Page not found</h2>
-  <p>Sorry, that page doesn’t exist. Try the navigation above or return to the <a class="underline" href="{{ '/' | relative_url }}">home page</a>.</p>
+  <p class="cta-row">
+    <a class="button" href="/">Back to Home</a>
+    <a class="btn" href="/contact/">Contact</a>
+  </p>
+  <ul>
+    <li><a href="/services/">Services</a></li>
+    <li><a href="/audiences/">Who we help</a></li>
+    <li><a href="/work/">Work (case notes)</a></li>
+    <li><a href="/faqs/">FAQs</a></li>
+    <li><a href="/about/">About</a></li>
+  </ul>
 </div>
