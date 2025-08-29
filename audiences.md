@@ -3,6 +3,7 @@ layout: default
 title: Who we help
 permalink: /audiences/
 redirect_from: [/audiences.html]
++ bg: stretched
 ---
 
 <span class="kicker">Who we help</span>

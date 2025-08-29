@@ -3,6 +3,7 @@ layout: default
 title: Engagement tiers
 permalink: /tiers/
 redirect_from: [/tiers.html]
++ bg: stretched
 ---
 
 <span class="kicker">Ways to work together</span>

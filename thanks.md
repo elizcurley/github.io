@@ -3,6 +3,7 @@ layout: default
 title: Thanks
 permalink: /thanks/
 redirect_from: [/thanks.html]
++ bg: stretched
 ---
 
 <div class="page-panel">

@@ -3,6 +3,7 @@ layout: default
 title: Origin Story
 permalink: /origin/
 redirect_from: [/origin.html]
++ bg: stretched
 ---
 
 {% include hero.html

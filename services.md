@@ -3,6 +3,7 @@ layout: default
 title: Services
 permalink: /services/
 redirect_from: [/services.html]
++ bg: stretched
 ---
 
 {% include hero.html
