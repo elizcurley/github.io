@@ -6,7 +6,7 @@ bg: stretched
 ---
 
 {% include hero.html
-  kicker='Rooted in care • Built for momentum'
+  kicker='Rooted in care • Grounded by You • Grown Together'
   title='Move from complexity to clarity.'
   sub='We help you turn messy realities into decisions that stick—through practical research, clean systems, and artifacts your team will actually use.'
   cta_href='https://calendly.com/your-calendly-link/intro'
@@ -15,6 +15,17 @@ bg: stretched
   cta2_label='Explore services'
   pills='Research & Evaluation|Forensic / Expert Work|Goals Coaching|Systems Design & Implementation'
 %}
+
+---
+layout: default
+title: Mangrove Method
+---
+
+# Rooted in care. Grounded by you. Grown together.
+
+Practical help for people and teams in choppy seasons. We turn intentions into plans, plans into routines, and routines into results.
+
+<p><a class="button" href="/contact/#book">Book a Baseline Meet (30 min)</a></p>
 
 
 <span class="kicker">Highlights</span>

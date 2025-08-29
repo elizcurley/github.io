@@ -138,5 +138,24 @@ a:focus-visible{outline:2px solid var(--mm-sage);outline-offset:2px}
 @media (max-width:900px){
   .main-nav{ position:absolute; right:16px; top:64px; }
 }
+
 /* extra space between the seal and "Mangrove Method" */
 .logo-link { margin-right: 12px; }   /* bump to 16px if you want more */
+
+.contact-form label{display:block;margin:.6rem 0}
+.contact-form input,.contact-form textarea{
+  width:100%;padding:.6rem;border:1px solid var(--line);border-radius:10px
+}
+.contact-form button{
+  background:var(--primary);color:#fff;border:0;padding:.7rem 1rem;border-radius:12px;cursor:pointer
+}
+.button{
+  background:var(--primary);
+  color:#fff;
+  display:inline-block;
+  padding:.7rem 1rem;
+  border-radius:12px;
+  text-decoration:none;
+  border:0;
+}
+.button:hover{opacity:.9}
