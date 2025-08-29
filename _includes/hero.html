@@ -4,9 +4,19 @@
     {% if include.kicker %}<span class="kicker">{{ include.kicker }}</span>{% endif %}
     <h1>{{ include.title }}</h1>
     {% if include.sub %}<p class="sub">{{ include.sub }}</p>{% endif %}
-    {% if include.cta or include.cta2 %}{% include cta-row.html cta=include.cta cta2=include.cta2 %}{% endif %}
+
+    {% if include.cta_href or include.cta2_href %}
+      <div class="cta-row">
+        {% if include.cta_href %}<a class="btn" href="{{ include.cta_href }}">{{ include.cta_label }}</a>{% endif %}
+        {% if include.cta2_href %}<a class="btn" href="{{ include.cta2_href }}">{{ include.cta2_label }}</a>{% endif %}
+      </div>
+    {% endif %}
+
     {% if include.pills %}
-    <div class="pills">{% for p in include.pills %}<span class="pill">{{ p }}</span>{% endfor %}</div>
+      {% assign pills_arr = include.pills | split: '|' %}
+      <div class="pills">
+        {% for p in pills_arr %}<span class="pill">{{ p }}</span>{% endfor %}
+      </div>
     {% endif %}
   </div>
 </section>
