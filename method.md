@@ -3,6 +3,7 @@ layout: default
 title: The Mangrove Method
 permalink: /method/
 redirect_from: [/method.html]
++ bg: stretched
 ---
 
 {% include hero.html
