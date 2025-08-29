@@ -159,3 +159,38 @@ a:focus-visible{outline:2px solid var(--mm-sage);outline-offset:2px}
   border:0;
 }
 .button:hover{opacity:.9}
+/* --- Ensure logo graphic scales inside its box --- */
+.logo-link img,
+.logo-link svg{
+  display:block;
+  max-width:100%;
+  max-height:100%;
+  width:auto;
+  height:auto;
+  object-fit:contain;
+}
+
+/* --- Reduce logo size on narrow screens to prevent overlap --- */
+@media (max-width: 480px){
+  .logo-link{ inline-size:36px; block-size:36px; } /* was clamped min ~44px */
+  .brand-text{
+    min-width:0;               /* allow shrink */
+    max-width:60vw;            /* don't hog the row */
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+  }
+}
+
+/* --- Make sure hamburger stays pinned right, brand can shrink --- */
+.site-header{
+  justify-content:flex-start;
+  gap: var(--space-2);
+  flex-wrap:nowrap;
+}
+.logo-link{ flex:0 0 auto; margin-right:12px; } /* breathing room */
+.brand-text{ flex:1 1 auto; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.nav-toggle{ flex:0 0 auto; margin-left:auto; }
+
+/* --- Define primary button color if missing --- */
+:root{ --primary: var(--mm-sage); }
