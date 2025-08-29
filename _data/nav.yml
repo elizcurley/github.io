@@ -4,9 +4,11 @@
   url: /services/
 - title: Who we help
   url: /audiences/
-- title: Engagement tiers
-  url: /tiers/
 - title: About
   url: /about/
+- title: Work
+  url: /work/
+- title: FAQs
+  url: /faqs/
 - title: Contact
   url: /contact/
