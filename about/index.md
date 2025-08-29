@@ -13,28 +13,21 @@ redirect_from: [/method/, /origin/]
 
 {% include subnav-about.html %}
 
-<div class="page-panel" id="origin">
-  <h2>Origin story</h2>
-  <p>Mangroves thrive where land and sea argue with each other, with roots that seem to connect everywhere. These roots tangle, filter, and hold, making shelter for life in choppy water. Mangrove Method grew from that same belief: that care is a structure, momentum is a practice, and the intertidal places of life deserve better support. I built this studio after years of applied research and community work because I kept seeing the same gap: good people with good intentions drowning in complicated language, paperwork, and habits that couldn’t quite bridge the space in between. My role is to turn intention into a workable plan and then guide you to the desired outcome. </p>
-  
-  <p>
-  I am a social work researcher and creator who has spent years translating evidence into everyday practice — from education in the classroom to developing and piloting creative new programs for people who are incarcerated, to running high-level research projects with grant management. Beyond the degrees and titles, I’m also an award-winning poet, and I bring the art of innovation to everything that I do. Alongside that, I’ve been the friend people text when everything feels like “too much” — deadlines, forms, grief, logistics, and the thousand paper cuts of change. 
-</p>
-<p>
-Mangrove Method is where those worlds meet: practical help that still honors the human heart.
-The name chose me. As a Florida native, I fell in love with mangroves — those living architectures that make new ground out of uncertainty. That’s the promise here: rooted care and methodical movement. We map what matters, decide what’s next, and build no-hassle systems that keep you moving when the tide turns
-  
-  </p>
+{% include subnav-about.html %}
 
-  <h3 style="margin-top:12px">Why “Mangrove Method”?</h3>
-  <ul>
-    <li><strong>Rooted in care.</strong> Decisions anchored to values and real constraints.</li>
-    <li><strong>Adaptive by design.</strong> Brackish water is the norm; we build for change.</li>
-    <li><strong>Protective structure.</strong> Tools and artifacts that make the work calmer, not heavier.</li>
-  </ul>
+<div class="page-panel" id="origin" markdown="1">
+## Origin story
 
-  <p style="margin-top:12px">Mangroves thrive where fresh meets salt—messy, shifting, alive. Their roots knit together to calm rough water and protect what’s growing. That’s the work.</p>
+Mangroves thrive where land and sea argue — roots that tangle, filter, and hold to make shelter in choppy water. Mangrove Method grew from that same belief: **care is a structure, momentum is a practice**, and the intertidal places of life deserve better support.
+
+I built this studio after years of applied research and community work because I kept seeing the same gap: good people with good intentions drowning in complicated language, paperwork, and habits that couldn’t bridge the space in between. My role is to turn intention into a workable plan — **and guide it to the outcome you actually need**.
+
+I’m a social-work researcher and creator who translates evidence into everyday practice — from teaching in classrooms, to piloting programs with people who are incarcerated, to running high-level research with grant management. I’m also an award-winning poet, and I bring that **clarity + craft** to the work. Alongside that, I’ve been the friend people text when everything feels like “too much”: deadlines, forms, grief, logistics, and the thousand paper cuts of change.
+
+**Mangrove Method is where those worlds meet**: practical help that still honors the human heart. The name chose me. As a Florida native, I fell in love with mangroves — living architectures that make new ground out of uncertainty. That’s the promise here: **rooted care and methodical movement**. We map what matters, decide what’s next, and build **no-hassle systems** that keep you moving when the tide turns.
 </div>
+
+
 
 <div class="page-panel" id="method">
   <h2>The Mangrove Method</h2>
