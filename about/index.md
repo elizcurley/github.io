@@ -25,8 +25,6 @@ I’m a social-work researcher and creator who translates evidence into everyday
 **Mangrove Method is where those worlds meet**: practical help that still honors the human heart. The name chose me. As a Florida native, I fell in love with mangroves — living architectures that make new ground out of uncertainty. That’s the promise here: **rooted care and methodical movement**. We map what matters, decide what’s next, and build **no-hassle systems** that keep you moving when the tide turns.
 </div>
 
-
-
 <div class="page-panel" id="method">
   <h2>The Mangrove Method</h2>
   <p class="sub">Practical research, humane systems, artifacts that travel.</p>
