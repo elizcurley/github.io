@@ -1,28 +1,31 @@
-- title: Individuals
+- title: "Individuals"
   cols: cols-4
   list:
-    - Practical plans you can actually do
-    - Motivation, energy, routines, boundaries
-    - Creative problem-solving for real-life constraints
-    - <em>Packages include a set number of products</em>
-- title: Community orgs & small teams
+    - "Practical plans you can actually do"
+    - "Motivation, energy, routines, boundaries"
+    - "Creative problem-solving for real-life constraints"
+    - "<em>Packages include a set number of products</em>"
+
+- title: "Community orgs & small teams"
   cols: cols-4
   list:
-    - Right-sized implementation and quick wins
-    - Service maps, roles & lanes, checklists, toolkits
-    - Measures that are easy to collect and useful
-    - <em>Clarity Sprint, Workshop, Evaluation Lite, Retainers</em>
-- title: Institutions
+    - "Right-sized implementation and quick wins"
+    - "Service maps, roles & lanes, checklists, toolkits"
+    - "Measures that are easy to collect and useful"
+    - "<em>Clarity Sprint, Workshop, Evaluation Lite, Retainers</em>"
+
+- title: "Institutions"
   cols: cols-4
   list:
-    - Decision-ready options with costs and trade-offs
-    - 90-day rollouts and progress signals
-    - Ops & Wellbeing labs; executive advisory
-    - <em>Blueprints, Labs, Workshop Series</em>
-- title: Selective: Expert / Forensic
+    - "Decision-ready options with costs and trade-offs"
+    - "90-day rollouts and progress signals"
+    - "Ops & Wellbeing labs; executive advisory"
+    - "<em>Blueprints, Labs, Workshop Series</em>"
+
+- title: "Selective: Expert / Forensic"
   cols: cols-4
   list:
-    - By fit and scope only (not a primary offer)
-    - Social history outlines; records timelines
-    - Research memos; representative question banks
-    - Ask for the separate fee sheet
+    - "By fit and scope only (not a primary offer)"
+    - "Social history outlines; records timelines"
+    - "Research memos; representative question banks"
+    - "Ask for the separate fee sheet"
