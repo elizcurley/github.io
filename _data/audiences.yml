@@ -1,29 +1,30 @@
-- title: "Individuals"
-  cols: cols-4
-  list:
-    - "Practical plans you can actually do"
-    - "Motivation, energy, routines, boundaries"
-    - "Creative problem-solving for real-life constraints"
-    - "<em>Packages include a set number of products</em>"
+primary:
+  - title: "Individuals"
+    cols: cols-4
+    list:
+      - "Practical plans you can actually do"
+      - "Motivation, energy, routines, boundaries"
+      - "Creative problem-solving for real-life constraints"
+      - "<em>Packages include a set number of products</em>"
 
-- title: "Community orgs & small teams"
-  cols: cols-4
-  list:
-    - "Right-sized implementation and quick wins"
-    - "Service maps, roles & lanes, checklists, toolkits"
-    - "Measures that are easy to collect and useful"
-    - "<em>Clarity Sprint, Workshop, Evaluation Lite, Retainers</em>"
+  - title: "Community orgs & small teams"
+    cols: cols-4
+    list:
+      - "Right-sized implementation and quick wins"
+      - "Service maps, roles & lanes, checklists, toolkits"
+      - "Measures that are easy to collect and useful"
+      - "<em>Clarity Sprint, Workshop, Evaluation Lite, Retainers</em>"
 
-- title: "Institutions"
-  cols: cols-4
-  list:
-    - "Decision-ready options with costs and trade-offs"
-    - "90-day rollouts and progress signals"
-    - "Ops & Wellbeing labs; executive advisory"
-    - "<em>Blueprints, Labs, Workshop Series</em>"
+  - title: "Institutions"
+    cols: cols-4
+    list:
+      - "Decision-ready options with costs and trade-offs"
+      - "90-day rollouts and progress signals"
+      - "Ops & Wellbeing labs; executive advisory"
+      - "<em>Blueprints, Labs, Workshop Series</em>"
 
-- title: "Selective: Expert / Forensic"
-  cols: cols-4
+selective:
+  title: "Selective: Expert / Forensic"
   list:
     - "By fit and scope only (not a primary offer)"
     - "Social history outlines; records timelines"
