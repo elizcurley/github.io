@@ -1,55 +1,22 @@
-home:
-  - title: Research & Evaluation
-    cols: cols-4
-    list:
-      - Study design, mixed-methods, and measurement strategy
-      - Data cleaning, analysis, and decision-grade reporting
-      - Implementation/process evaluations & learning agendas
-  - title: Program & Policy Consulting
-    cols: cols-4
-    list:
-      - Logic models, workflows, and training guides
-      - Grant strategy, scoping, and outcome frameworks
-      - Policy scans & plain-language briefs for stakeholders
-  - title: Forensic & Expert Services
-    cols: cols-4
-    list:
-      - Record & evidence review; social history synthesis
-      - Impact/mitigation analysis & clear testimony prep
-      - Consulting for public defense & appointed counsel
-
 all:
-  - title: Research & Evaluation
+  - title: Individuals
     cols: cols-6
     list:
-      - Mixed-methods design and measurement strategy
-      - Data pipelines, cleaning, reproducible analysis
-      - Implementation/process evaluations and rapid learning cycles
-      - Executive summaries, dashboards, decision memos
-  - title: Program & Policy Consulting
+      - Root Session ($45) → <em>1 product</em>
+      - Sustainable Flow ($225) → <em>3 products</em>
+      - Growth Stage ($250/$375 per month) → <em>2 products/month</em>
+      - Reset Intensive (Half-Day, $280/$400) → <em>3–5 products</em>
+  - title: Community orgs & small teams
     cols: cols-6
     list:
-      - Logic models, SOPs, facilitator manuals
-      - Grant/RFP framing; outcome frameworks
-      - Policy scans and plain-language briefs
-      - Training & workshops: evidence-informed practice
-  - title: Forensic & Expert Services
+      - Program Clarity Sprint ($2,000) → <em>3–4 products</em>
+      - Team Workshop ($750) → <em>2 products</em>
+      - Evaluation Lite ($3,500) → <em>4 products</em>
+      - Capacity Retainer (from $1,500/mo) → <em>2–4 products/month</em>
+  - title: Institutions
     cols: cols-6
     list:
-      - Case record review and evidence synthesis
-      - Mitigation/impact memos and expert testimony prep
-      - Social science literature briefs for legal teams
-      - Ethics & interviewing best-practices training
-  - title: Systems & Lifestyle Coaching
-    cols: cols-6
-    list:
-      - Personal ops & habit design (privacy-first)
-      - Templates, checklists, sustainable routines
-      - Accountability that respects bandwidth & boundaries
-      - Lightweight data hygiene for real life
-  - title: Creative Studio
-    cols: cols-12
-    list:
-      - Editorial guidance & artifact design (guides, chapbooks)
-      - Workshops & facilitation for teams/classrooms
-      - Brand & messaging cleanup for clarity
+      - Change Blueprint ($6,000) → <em>5 products</em>
+      - Ops & Wellbeing Lab ($4,500) → <em>4 products</em>
+      - Executive Advisory ($3,000–$6,000/mo) → <em>2–6 products/month</em>
+      - Workshop Series ($4,000–$10,000) → <em>3+ products</em>

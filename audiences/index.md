@@ -7,7 +7,7 @@ permalink: /audiences/
 {% include hero.html
   kicker="Who we help"
   title="Choose your path."
-  sub="If your situation is unique, we’re happy to scope a custom path."
+  sub="Individuals, community orgs, and institutions. Selective expert/forensic work by fit."
 %}
 
 <div class="grid" style="margin-top:8px">
