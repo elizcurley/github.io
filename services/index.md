@@ -72,7 +72,7 @@ permalink: /services/
 
 <div class="page-panel" id="packages" style="margin-top:12px">
   <h2>Packages</h2>
-  <p class="sub">Each package includes a set number of <strong>products</strong>. We’ll pick them together from the menu above.</p>
+  <p class="sub">Each package includes a set number of <strong>products</strong>. We’ll pick them together. Products may be from the menu above, or a product you believe has the best fit.</p>
 
   <h3 id="individuals" style="margin-top:10px">Individuals — Lifestyle management & creative problem-solving</h3>
   <ul>
