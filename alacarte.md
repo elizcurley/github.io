@@ -30,7 +30,7 @@ These are fixed-scope, one-off offerings: you fill out a short form, send any fi
       <strong>Optional add-on:</strong> +$20 for a tailored cover letter if you provide a specific posting at intake.
     </p>
     <p class="cta-row">
-      <a class="button" href="https://example.com/resume-form" target="_blank" rel="noopener">Request résumé revamp</a>
+      <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSd6HU0HdZHe9ZgK8pXXjgNwngYPAA9_0BBNGVD8y4ZDjF90cg/viewform?usp=dialog" target="_blank" rel="noopener">Request résumé revamp</a>
     </p>
   </div>
 
