@@ -101,7 +101,7 @@ These are fixed-scope, one-off offerings: you fill out a short form, send any fi
       <li>Accessible whether or not you claim a specific tradition.</li>
     </ul>
     <p class="cta-row">
-      <a class="button" href="https://example.com/spiritual-form" target="_blank" rel="noopener">Request a reflection tool</a>
+      <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSdNxG62aRWS66t3JdTrKDRSVNyrnmnfocVhUu1uj2xww8c-mg/viewform?usp=publish-editor" target="_blank" rel="noopener">Request a reflection tool</a>
     </p>
   </div>
 </div>
