@@ -14,19 +14,21 @@ permalink: /alacarte/
 ## $100 product menu
 
 <p class="sub">
-These are fixed-scope, one-off offerings: you fill out a short form, send any files I need, and I send back a finished product. No meetings required unless we both decide it would help.
+These are fixed-scope, one-off offerings: you fill out a short form, send any files I’ll need, and I send back a finished product. No meetings required unless we both decide it would help.
 </p>
 
 <div class="grid" style="margin-top:8px">
   <div class="card cols-4">
     <h3>Résumé Revamp</h3>
-    <p>Line edits + structure + formatting, aligned with where you’re headed now.</p>
+    <p>Line edits, structure, and formatting aligned with where you’re headed now.</p>
     <ul>
       <li>Clean, modern layout.</li>
       <li>Clarity on roles, impact, and skills.</li>
       <li>Delivered as editable doc + PDF (if desired).</li>
     </ul>
-    <p class="sub"><strong>Optional add-on:</strong> +$20 for a tailored cover letter if you provide a specific posting at intake.</p>
+    <p class="sub">
+      <strong>Optional add-on:</strong> +$20 for a tailored cover letter if you provide a specific posting at intake.
+    </p>
     <p class="cta-row">
       <a class="button" href="https://example.com/resume-form" target="_blank" rel="noopener">Request résumé revamp</a>
     </p>
@@ -66,7 +68,9 @@ These are fixed-scope, one-off offerings: you fill out a short form, send any fi
       <li>I write a poem or letter in a tone you choose (warm, reflective, celebratory, grief, etc.).</li>
       <li>Delivered as a text document you can print, send, or keep.</li>
     </ul>
-    <p class="sub">Common uses: birthdays, anniversaries, grief, closure, blessings, or “I can’t find the words.”</p>
+    <p class="sub">
+      Common uses: birthdays, anniversaries, grief, closure, blessings, or “I can’t find the words.”
+    </p>
     <p class="cta-row">
       <a class="button" href="https://example.com/commission-form" target="_blank" rel="noopener">Commission a piece</a>
     </p>
@@ -80,7 +84,9 @@ These are fixed-scope, one-off offerings: you fill out a short form, send any fi
       <li><em>Either</em> a readiness snapshot <em>or</em> a narrative outline/template.</li>
       <li>Concrete notes on where to start, strengthen, or simplify.</li>
     </ul>
-    <p class="sub">Not a full grant-writing engagement, but a focused and usable jumping-off point.</p>
+    <p class="sub">
+      Not a full grant-writing engagement, but a focused and usable jumping-off point.
+    </p>
     <p class="cta-row">
       <a class="button" href="https://example.com/grant-form" target="_blank" rel="noopener">Request grant support</a>
     </p>
@@ -108,7 +114,7 @@ These are fixed-scope, one-off offerings: you fill out a short form, send any fi
     <li><strong>Choose a product:</strong> Pick the option that fits what you need right now.</li>
     <li><strong>Complete the intake:</strong> Each link opens a short form where you can share context and upload files.</li>
     <li><strong>Send payment:</strong> I’ll send simple instructions for payment ($100 per product, plus any add-ons).</li>
-    <li><strong>Receive your deliverable:</strong> I draft, you get a finished product by email, with one light revision window.</li>
+    <li><strong>Receive your deliverable:</strong> I draft; you get a finished product by email, with one light revision window.</li>
   </ol>
 
   <p class="cta-row">
