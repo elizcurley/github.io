@@ -88,7 +88,7 @@ These are fixed-scope, one-off offerings: you fill out a short form, send any fi
       Not a full grant-writing engagement, but a focused and usable jumping-off point.
     </p>
     <p class="cta-row">
-      <a class="button" href="https://example.com/grant-form" target="_blank" rel="noopener">Request grant support</a>
+      <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSc_f6vHVesZ1PidHx3n3dnj3pPBUFUv4QNz4xrLemM5v2voHw/viewform?usp=publish-editor" target="_blank" rel="noopener">Request grant support</a>
     </p>
   </div>
 
