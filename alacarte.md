@@ -43,7 +43,7 @@ These are fixed-scope, one-off offerings: you fill out a short form, send any fi
       <li>Concrete but non-clinical recommendations you can actually try.</li>
     </ul>
     <p class="cta-row">
-      <a class="button" href="https://example.com/snapshot-form" target="_blank" rel="noopener">Request life snapshot</a>
+      <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSd1gi8Em4PlB9gcyrQU1a_gpFHnzoAhYtOn-YoqcPibCyABoA/viewform?usp=publish-editor" target="_blank" rel="noopener">Request life snapshot</a>
     </p>
   </div>
 
